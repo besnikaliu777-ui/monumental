@@ -1,3 +1,11 @@
+import './globals.css'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Monumental Decor',
+  description: 'Statues et décorations artisanales',
+}
+
 export default function RootLayout({
   children,
 }: {
@@ -7,5 +15,5 @@ export default function RootLayout({
     <html lang="fr">
       <body>{children}</body>
     </html>
-  );
+  )
 }
